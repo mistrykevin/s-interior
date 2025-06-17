@@ -43,7 +43,7 @@ const Carousel = () => {
   }, []);
 
   return (
-    <div className="relative h-[70vh] w-full overflow-hidden shadow-xl">
+    <div className="relative h-[70vh] w-full overflow-visible shadow-xl">
       {carouselSlides.map((slide, i) => (
         <motion.div
           key={`slide-${i}`}
@@ -187,5 +187,3 @@ export default function Home() {
     </div>
   );
 }
-
-

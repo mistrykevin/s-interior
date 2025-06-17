@@ -29,10 +29,10 @@ export default function Navbar() {
   const location = useLocation();
 
   const ProfileMenu = () => (
-    <MenuItems className="absolute right-0 mt-2 w-48 rounded-md bg-white text-gray-800 shadow-lg ring-1 ring-black/10 z-50">
+    <MenuItems className="absolute right-0 mt-2 w-48 rounded-md bg-white text-gray-800 shadow-lg ring-1 ring-black/10 z-50 ">
       <MenuItem>
         {({ active }) => (
-          <Link
+          <Link 
             to="/About"
             className={classNames(
               active ? "bg-indigo-100" : "",
@@ -145,7 +145,7 @@ export default function Navbar() {
                     <Bars3Icon className="h-6 w-6" />
                   )}
                 </DisclosureButton>
-                <Menu as="div" className="relative">
+                <Menu as="div" className="relative z-50">
                   <MenuButton className="rounded-full focus:outline-none focus:ring-2 focus:ring-indigo-500">
                     <img
                       src={profileicon}
