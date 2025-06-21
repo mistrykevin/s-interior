@@ -92,7 +92,7 @@ const fadeUp = {
 export default function Process() {
   const navigate = useNavigate();
   return (
-    <section className="min-h-screen px-6 py-16 md:px-20 bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 bg-fixed">
+    <div className="min-h-screen px-6 py-16 md:px-20 bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 bg-fixed">
       {/* Header */}
       <motion.div
         variants={fadeUp}
@@ -184,6 +184,6 @@ export default function Process() {
           <p className="text-gray-600 mb-6">{description}</p>
         </motion.div>
       ))}
-    </section>
+    </div>
   );
 }

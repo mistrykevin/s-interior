@@ -63,17 +63,13 @@ const cardVariant = {
 
 export default function Services() {
   return (
-    <div className="relative min-h-screen px-4 sm:px-6 lg:px-20 py-16 bg-gradient-to-br from-[#f5f7fa] via-[#c3cfe2] to-[#e2ebf0] text-gray-900 overflow-hidden">
-      {/* Decorative Blobs */}
-      <div className="absolute w-80 h-80 bg-indigo-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse -top-32 -left-32" />
-      <div className="absolute w-80 h-80 bg-purple-200 rounded-full mix-blend-multiply filter blur-3xl opacity-30 animate-pulse -bottom-24 -right-24" />
-
+    <div className="min-h-screen px-6 py-16 md:px-20 bg-gradient-to-br from-[#f5f7fa] via-[#c3cfe2] to-[#e2ebf0] bg-fixed">
       {/* Header */}
       <motion.div
-        initial={{ opacity: 0, y: -20 }}
+        initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-        className="relative z-10 text-center mb-16"
+        transition={{ duration: 0.6 }}
+        className="text-center pb-12"
       >
         <h1 className="text-4xl md:text-5xl font-bold text-[#432dd7]">
           Our Interior Design Services
