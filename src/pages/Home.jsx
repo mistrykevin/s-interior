@@ -43,7 +43,7 @@ const Carousel = () => {
   }, []);
 
   return (
-    <div className="relative h-[70vh] w-full overflow-visible shadow-xl">
+    <div className="relative h-[80vh] w-full overflow-visible shadow-xl">
       {carouselSlides.map((slide, i) => (
         <motion.div
           key={`slide-${i}`}
@@ -176,12 +176,12 @@ export default function Home() {
             extraordinary together.
           </p>
           <button
-      onClick={() => navigate("/Contact")}
-      className="bg-purple-500 hover:bg-purple-800 text-white font-semibold px-2 py-2 rounded-lg shadow-lg transition cursor-pointer"
-      style={{ backgroundColor: brandColor }}
-    >
-      Book a Consultation
-    </button>
+            onClick={() => navigate("/Contact")}
+            className="bg-purple-500 hover:bg-purple-800 text-white font-semibold px-2 py-2 rounded-lg shadow-lg transition cursor-pointer"
+            style={{ backgroundColor: brandColor }}
+          >
+            Book a Consultation
+          </button>
         </motion.section>
       </main>
     </div>
