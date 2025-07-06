@@ -34,5 +34,5 @@ createRoot(document.getElementById('root')).render(
       </div>
       <Footer/>
     </BrowserRouter>
-  </StrictMode>,
+  </StrictMode>
 )
