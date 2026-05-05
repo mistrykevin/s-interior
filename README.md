@@ -49,7 +49,6 @@ src/
 
 ## 📈 Future Improvements
 
-* Add dark mode 🌙
 * Improve accessibility
 * Integrate backend APIs
 * Performance optimization
