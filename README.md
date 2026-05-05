@@ -50,7 +50,7 @@ src/
 ## 📈 Future Improvements
 
 * Add dark mode 🌙
-* Improve accessibility (ARIA support)
+* Improve accessibility
 * Integrate backend APIs
 * Performance optimization
 
